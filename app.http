@@ -1,0 +1,9 @@
+###
+POST http://localhost:3000/transactions/
+Content-Type: application/json
+
+{
+  "type":"INCOME","category":"grocery","amount":6000,"date":"2024-10-12","description":"monthly groceries","name":"bharat"
+}
+
+###
